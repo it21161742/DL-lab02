@@ -1,0 +1,15 @@
+What happens when the number of hidden nodes increase?
+
+Increasing the number of hidden nodes in a neural network can improve accuracy
+by learning complex patterns but also risks overfitting, leading to poor test performance.
+It increases training time and computational demands, and can cause issues with vanishing or
+exploding gradients. Balancing the number of hidden nodes is crucial; using regularization
+and cross-validation helps optimize their number and maintain robust performance.
+
+Can you explain the pattern of the accuracy when the hidden nodes increase?
+
+As the number of hidden nodes in a neural network increases, accuracy initially improves as
+themodel learns more complex patterns. This continues until an optimal point is reached.
+Beyond this, accuracy may plateau or decline due to overfitting, where the model memorizes
+training data instead of generalizing. Excessive hidden nodes can also cause performance instability.
+Balancing the number of hidden nodes is key for optimal accuracy.
